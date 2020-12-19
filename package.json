@@ -8,7 +8,6 @@
     "scripts": {
         "ng": "ng",
         "start": "node server.js",
-
         "heroku-postbuild": "ng build --prod",
         "build": "ng build",
         "test": "ng test",
@@ -18,10 +17,8 @@
     "private": true,
     "dependencies": {
         "@angular/animations": "~11.0.3",
-        "@angular/cli": "^7.1.2",
         "@angular/common": "~11.0.3",
         "@angular/compiler": "~11.0.3",
-        "@angular/compiler-cli": "^6.1.10",
         "@angular/core": "~11.0.3",
         "@angular/forms": "~11.0.3",
         "@angular/platform-browser": "~11.0.3",
@@ -38,8 +35,8 @@
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "~0.1100.3",
-        "@angular/cli": "~11.0.3",
-        "@angular/compiler-cli": "~11.0.3",
+        "@angular/cli": "11.0.5",
+        "@angular/compiler-cli": "6.1.10",
         "@types/jasmine": "~3.6.0",
         "@types/node": "^12.11.1",
         "codelyzer": "^6.0.0",
