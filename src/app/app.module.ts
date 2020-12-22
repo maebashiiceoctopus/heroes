@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+
 
 
 //rutas 
@@ -19,6 +21,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { BusquedaComponent } from './components/busqueda/busqueda.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 
 @NgModule({
@@ -29,12 +32,14 @@ import { BusquedaComponent } from './components/busqueda/busqueda.component';
     HeroesComponent,
     AboutComponent,
     HeroeComponent,
-    BusquedaComponent
+    BusquedaComponent,
+    HeroeTarjetaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     APP_ROUTING,
+    CommonModule,
     FormsModule
 
   ],
